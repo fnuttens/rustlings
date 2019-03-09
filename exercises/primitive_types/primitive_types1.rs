@@ -6,12 +6,12 @@ fn main() {
     // Booleans (`bool`)
 
     let is_morning = true;
-    if is_morning {
+    if is_morning == true {
         println!("Good morning!");
     }
 
-    let // Finish the rest of this line like the example! Or make it be false!
-    if is_evening {
+    let is_evening = false; // Finish the rest of this line like the example! Or make it be false!
+    if is_evening == true {
         println!("Good evening!");
     }
 }

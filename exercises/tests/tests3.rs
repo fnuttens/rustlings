@@ -13,7 +13,12 @@ mod tests {
 
     #[test]
     fn is_true_when_even() {
-        assert!();
+        assert!(true == is_even(42));
+    }
+
+    #[test]
+    fn is_false_when_odd() {
+        assert!(false == is_even(5));
     }
 }
 
